@@ -1,0 +1,20 @@
+model:
+  latent_dim: 128
+  starting_image_size: 4
+  channels: 3
+
+training:
+  loss_type: 'wgan_gp'  # ['gan', 'wgan_gp', 'lsgan']
+  lr: 2e-4
+  batch_size: 64
+  num_epochs: 100
+  n_critic: 5
+  lambda_gp: 10
+
+logging:
+  log_interval: 100
+  sample_interval: 1000
+  save_interval: 5000
+  log_dir: 'logs'
+  sample_dir: 'samples'
+  checkpoint_dir: 'checkpoints'
