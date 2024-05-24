@@ -1,0 +1,17 @@
+model:
+  type: "vae"  # ["ae", "vae"]
+  input_shape: [3, 32, 32]
+  latent_dim: 128
+
+training:
+  lr: 1e-3
+  batch_size: 256
+  num_epochs: 20
+  beta_mode: "constant"  # ["constant", "linear"]
+  target_beta_val: 1.0
+  save_interval: 5
+
+logging:
+  log_dir: "logs"
+  sample_dir: "samples"
+  checkpoint_dir: "checkpoints"
