@@ -183,4 +183,4 @@ python train.py --model [gan/vae/diffusion] --config configs/default.yaml
 
 - [WGAN-GP Paper](https://arxiv.org/abs/1704.00028)
 - [VAE Paper](https://arxiv.org/abs/1312.6114)
-- [DDPM Paper](https://arxiv.org/abs/2006.11239)# GenVision
+- [DDPM Paper](https://arxiv.org/abs/2006.11239)
