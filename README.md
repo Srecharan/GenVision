@@ -1,7 +1,5 @@
 # GenVision: Advanced Generative Models for Image Synthesis
 
-A comprehensive implementation of three state-of-the-art generative architectures: GANs (Generative Adversarial Networks), VAEs (Variational Autoencoders), and Diffusion Models. Each architecture is implemented with multiple variants and tested on standard benchmarks.
-
 ## Overview
 
 This project explores three fundamentally different approaches to deep generative modeling:
@@ -9,6 +7,18 @@ This project explores three fundamentally different approaches to deep generativ
 *   **Generative Adversarial Networks (GANs):** Implementation of three variants (Vanilla GAN, LSGAN, WGAN-GP) with progressive improvements in stability and sample quality.
 *   **Variational Autoencoders (VAEs):** Exploration of different latent space dimensions and β-annealing strategies for optimal reconstruction-generation balance.
 *   **Diffusion Models:** Implementation of efficient sampling procedures (DDPM and DDIM) with pre-trained models.
+
+## 1-min Overview
+
+<div align="center">
+  <a href="https://youtu.be/eRFWZjJbcgI  #remove">
+    <img src="https://img.youtube.com/vi/eRFWZjJbcgI/maxresdefault.jpg #remove" alt="Watch the video" style="width: 100%; max-width: 800px;">
+    <br>
+    <img src="https://img.shields.io/badge/Watch%20on-YouTube-red?style=for-the-badge&logo=youtube" alt="Watch on YouTube">
+  </a>
+  <br><br>
+  <em>Technical overview of GenVision's architecture and implementation</em>
+</div>
 
 ### 1. GAN Results
 
