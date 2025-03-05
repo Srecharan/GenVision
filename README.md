@@ -8,6 +8,13 @@ This project explores three fundamentally different approaches to deep generativ
 *   **Variational Autoencoders (VAEs):** Exploration of different latent space dimensions and β-annealing strategies for optimal reconstruction-generation balance.
 *   **Diffusion Models:** Implementation of efficient sampling procedures (DDPM and DDIM) with pre-trained models.
 
+<div align="center">
+  <a href="assets/GenVision.pdf">
+    <img src="assets/first_page.png" width="600" alt="GenVision Technical Overview"/>
+    <p><i>Click on the image to view the complete Technical Overview PDF</i></p>
+  </a>
+</div>
+
 ### 1. GAN Results
 
 | Model      | FID Score | Sample Quality | Training Stability |
@@ -136,46 +143,30 @@ This project explores three fundamentally different approaches to deep generativ
 - Discriminator: Convolutional architecture with spectral normalization
 - Custom loss functions for each GAN variant
 
+<div align="center">
+  <img src="assets/gan_figure.png" width="700"/>
+  <p><i>GAN architecture with generator and discriminator components and loss function variants</i></p>
+</div>
+
 ### VAE Components
 - Encoder: Deep convolutional network with variable latent dimensions
 - Decoder: Mirror architecture with transposed convolutions
 - KL divergence scheduling with β-annealing
+
+<div align="center">
+  <img src="assets/vae_figure.png" width="700"/>
+  <p><i>VAE architecture showing encoder, latent space, and decoder with loss function components</i></p>
+</div>
 
 ### Diffusion Architecture
 - U-Net backbone with skip connections
 - Self-attention layers at multiple scales
 - Cosine noise schedule implementation
 
-## Key Technical Achievements
-
-1. **GAN Improvements:**
-   - Successfully stabilized training with gradient penalty
-   - Achieved consistent FID improvement across variants
-   - Implemented smooth latent space interpolation
-
-2. **VAE Optimization:**
-   - Identified optimal latent space dimensions
-   - Implemented effective β-annealing strategy
-   - Balanced reconstruction and generation quality
-
-3. **Diffusion Advances:**
-   - Efficient DDIM sampling implementation
-   - Maintained quality with reduced sampling steps
-   - Robust noise schedule management
-
-## Installation and Usage
-
-```bash
-# Clone repository
-git clone https://github.com/username/GenVision.git
-cd GenVision
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Training
-python train.py --model [gan/vae/diffusion] --config configs/default.yaml
-```
+<div align="center">
+  <img src="assets/diffusion_figure.png" width="700"/>
+  <p><i>Diffusion model architecture showing forward and reverse processes with sampling strategies</i></p>
+</div>
 
 ## References
 
