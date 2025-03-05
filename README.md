@@ -15,6 +15,39 @@ This project explores three fundamentally different approaches to deep generativ
   </a>
 </div>
 
+## Model Architecture Details
+
+### GAN Implementation
+- Generator: Progressive upsampling with ResBlocks
+- Discriminator: Convolutional architecture with spectral normalization
+- Custom loss functions for each GAN variant
+
+<div align="center">
+  <img src="assets/gan_figure.png" width="700"/>
+  <p><i>GAN architecture with generator and discriminator components and loss function variants</i></p>
+</div>
+
+### VAE Components
+- Encoder: Deep convolutional network with variable latent dimensions
+- Decoder: Mirror architecture with transposed convolutions
+- KL divergence scheduling with β-annealing
+
+<div align="center">
+  <img src="assets/vae_figure.png" width="700"/>
+  <p><i>VAE architecture showing encoder, latent space, and decoder with loss function components</i></p>
+</div>
+
+### Diffusion Architecture
+- U-Net backbone with skip connections
+- Self-attention layers at multiple scales
+- Cosine noise schedule implementation
+
+<div align="center">
+  <img src="assets/diffusion_figure.png" width="700"/>
+  <p><i>Diffusion model architecture showing forward and reverse processes with sampling strategies</i></p>
+</div>
+
+
 ### 1. GAN Results
 
 | Model      | FID Score | Sample Quality | Training Stability |
@@ -135,38 +168,6 @@ This project explores three fundamentally different approaches to deep generativ
 <td align="center">DDIM Samples</td>
 </tr>
 </table>
-
-## Model Architecture Details
-
-### GAN Implementation
-- Generator: Progressive upsampling with ResBlocks
-- Discriminator: Convolutional architecture with spectral normalization
-- Custom loss functions for each GAN variant
-
-<div align="center">
-  <img src="assets/gan_figure.png" width="700"/>
-  <p><i>GAN architecture with generator and discriminator components and loss function variants</i></p>
-</div>
-
-### VAE Components
-- Encoder: Deep convolutional network with variable latent dimensions
-- Decoder: Mirror architecture with transposed convolutions
-- KL divergence scheduling with β-annealing
-
-<div align="center">
-  <img src="assets/vae_figure.png" width="700"/>
-  <p><i>VAE architecture showing encoder, latent space, and decoder with loss function components</i></p>
-</div>
-
-### Diffusion Architecture
-- U-Net backbone with skip connections
-- Self-attention layers at multiple scales
-- Cosine noise schedule implementation
-
-<div align="center">
-  <img src="assets/diffusion_figure.png" width="700"/>
-  <p><i>Diffusion model architecture showing forward and reverse processes with sampling strategies</i></p>
-</div>
 
 ## References
 
