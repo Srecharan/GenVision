@@ -8,18 +8,6 @@ This project explores three fundamentally different approaches to deep generativ
 *   **Variational Autoencoders (VAEs):** Exploration of different latent space dimensions and β-annealing strategies for optimal reconstruction-generation balance.
 *   **Diffusion Models:** Implementation of efficient sampling procedures (DDPM and DDIM) with pre-trained models.
 
-## 1-min Overview
-
-<div align="center">
-  <a href="https://youtu.be/eRFWZjJbcgI  #remove">
-    <img src="https://img.youtube.com/vi/eRFWZjJbcgI/maxresdefault.jpg #remove" alt="Watch the video" style="width: 100%; max-width: 800px;">
-    <br>
-    <img src="https://img.shields.io/badge/Watch%20on-YouTube-red?style=for-the-badge&logo=youtube" alt="Watch on YouTube">
-  </a>
-  <br><br>
-  <em>Technical overview of GenVision's architecture and implementation</em>
-</div>
-
 ### 1. GAN Results
 
 | Model      | FID Score | Sample Quality | Training Stability |
