@@ -1,0 +1,21 @@
+{
+  "args": {
+    "data_root": "data/CUB_200_2011",
+    "batch_size": 32,
+    "baseline_epochs": 10,
+    "augmentation_epochs": 5,
+    "skip_baseline": false,
+    "skip_generation": false,
+    "demo_mode": true,
+    "use_aws": false
+  },
+  "experiment_dirs": {
+    "exp_dir": "experiments/synthetic_augmentation_20250626_195902",
+    "results": "experiments/synthetic_augmentation_20250626_195902/results",
+    "baseline": "experiments/synthetic_augmentation_20250626_195902/results/baseline",
+    "wgan_gp": "experiments/synthetic_augmentation_20250626_195902/results/wgan_gp",
+    "vae": "experiments/synthetic_augmentation_20250626_195902/results/vae",
+    "diffusion": "experiments/synthetic_augmentation_20250626_195902/results/diffusion"
+  },
+  "timestamp": "2025-06-26T19:59:06.520084"
+}

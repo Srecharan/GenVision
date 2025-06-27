@@ -1,0 +1,119 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# Datasets
+data/
+dataset/
+datasets/
+*.tar.gz
+*.zip
+CUB_200_2011/
+
+# Model checkpoints and weights
+checkpoints/
+models/*.pth
+models/*.pt
+*.safetensors
+
+# Logs and monitoring
+logs/
+*.log
+runs/
+wandb/
+tensorboard/
+mlruns/
+
+# Results and outputs (keep experiment configs and small result files)
+outputs/
+generated/
+samples/
+experiments/*/synthetic_data/
+experiments/*/checkpoints/
+experiments/*/logs/
+# Allow small result files
+!experiments/*/results/
+experiments/*/results/*.png
+experiments/*/results/*.jpg
+experiments/*/results/training_results.json
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Large assets
+*.mp4
+*.avi
+*.mkv
+*.mov
+assets/*.png
+assets/*.jpg
+assets/*.jpeg
+
+# Keep only essential assets
+!assets/diffusion_figure.png
+!assets/DDIM\ Samples.png
+!assets/DDPM\ Samples.png 

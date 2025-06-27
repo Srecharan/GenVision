@@ -9,3 +9,6 @@ clean-fid
 einops
 Pillow
 imageio
+tensorboard
+pandas
+scikit-learn

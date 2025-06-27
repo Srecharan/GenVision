@@ -1,0 +1,20 @@
+{
+  "args": {
+    "data_root": "data/CUB_200_2011",
+    "batch_size": 32,
+    "baseline_epochs": 10,
+    "augmentation_epochs": 5,
+    "skip_baseline": false,
+    "skip_generation": false,
+    "demo_mode": true,
+    "use_aws": false
+  },
+  "experiment_dirs": {
+    "exp_dir": "experiments/synthetic_augmentation_20250626_150650",
+    "logs": "experiments/synthetic_augmentation_20250626_150650/logs",
+    "checkpoints": "experiments/synthetic_augmentation_20250626_150650/checkpoints",
+    "results": "experiments/synthetic_augmentation_20250626_150650/results",
+    "synthetic_data": "experiments/synthetic_augmentation_20250626_150650/synthetic_data"
+  },
+  "timestamp": "2025-06-26T15:14:15.369272"
+}
